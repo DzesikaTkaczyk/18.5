@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.app {
+  max-width: 360px;
+  padding: 18px;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  height: 100%;
+}
+
+input {
+  width: 44%;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+button {
+  width: 44%;
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 3px;
+}
+
+button:hover {
+  color: yellow;
+  border-color: yellow;
+}
+
+.contactImage {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-image: url("../images/images.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactItem {
+  margin: 30px 0;
+  display: flex;
+  align-content: flex-start;
+}
+
+.contactsList {
+  padding: 0;
+  margin: 20px 0;
+}
+
+p {
+  margin: 0;
+  font-weight: 600;
+  color: white;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.contactEmail {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.contactEmail:hover {
+  color: yellow;
+}
+
+.contactData {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
