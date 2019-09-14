@@ -20,19 +20,19 @@ var Contact = React.createClass({
         )
       )*/
       <div className={'contactItem'}>
-        <img className={'contactImage'} src={this.props.contact.img} alt={this.props.contacts.alt}/>
+        <img className={'contactImage'} src={this.props.item.img} alt={this.props.item.alt}/>
         <div className={'contactData'}>
           <p className={'contactLabel'}>
-              Imię: {this.props.contacts.firstName}
+              Imię: {this.props.item.firstName}
           </p>
           <p className={'contactLabel'}>
-              Nazwisko: {this.props.contact.lastName}
+              Nazwisko: {this.props.item.lastName}
           </p>
-          <a href={'mailto:' + this.props.contact.email}>
+          <a href={'mailto:' + this.props.item.email}>
               {this.props.item.email}
           </a>
         </div>
-    </div>
+      </div>
     )
   },
 });
