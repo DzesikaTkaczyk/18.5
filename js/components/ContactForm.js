@@ -31,11 +31,11 @@ var ContactForm = React.createClass({
       )*/
 
       <form className={'contactForm'}>
-        <label forHtml={'firstName'}></label>
+        <label forHtml={'firstName'}/>
         <input id={'firstName'} type={'text'} placeholder={'Imię'} value={this.props.contact.firstName}/>
-        <label forHtml={'lastName'}></label>
+        <label forHtml={'lastName'}/>
         <input id={'lastName'} type={'text'} placeholder={'Nazwisko'} value={this.props.contact.lastName}/>
-        <label forHtml={'email'}></label>
+        <label forHtml={'email'}/>
         <input id={'email'} type={'email'} placeholder={'Email'} value={this.props.contact.email}/>
         <button type={'submit'}>Dodaj kontakt</button>
       </form>
